@@ -6,5 +6,9 @@ spring:
       enabled: true
     restart:
       enabled: false
+    add-properties: false
   freemarker:
     cache: false
+  jwt:
+#    secret: durin@$&
+    secret: govlepel@$&
